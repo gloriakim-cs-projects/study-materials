@@ -75,6 +75,12 @@ This is a note to write TCS interview prep, including Java, SQL, Angular8, and N
 <오버플로우>
 ![image](https://user-images.githubusercontent.com/68700599/115927853-bb30ba00-a44a-11eb-9cad-b777ffbf323c.png)
 
+<타입간의 변환방법>
+
+![image](https://user-images.githubusercontent.com/68700599/115929129-de5c6900-a44c-11eb-9a11-42089325d18e.png)
+
+#### 챕터 3
+
 
 ## SQL
 
