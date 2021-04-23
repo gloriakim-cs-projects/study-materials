@@ -66,6 +66,15 @@ This is a note to write TCS interview prep, including Java, SQL, Angular8, and N
 
 ![image](https://user-images.githubusercontent.com/68700599/115927476-1ada9580-a44a-11eb-8844-993bfa5eb6f0.png)
 
+<화면에서 입력받기 - Scanner>
+- Scanner 사용하는 방법:
+- (1) import 추가 (import java.util.*;)
+- (2) Scanner 객체의 생성 (Scanner scanner = new Scanner(System.in);)
+- (3) Scanner 객체 사용 (int num = scanner.nextInt(); 혹은 nextFloat 등)
+
+<오버플로우>
+![image](https://user-images.githubusercontent.com/68700599/115927853-bb30ba00-a44a-11eb-9cad-b777ffbf323c.png)
+
 
 ## SQL
 
