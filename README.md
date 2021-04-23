@@ -27,6 +27,7 @@ This is a note to write TCS interview prep, including Java, SQL, Angular8, and N
 - alt+shift+A (여러 줄 한 번에 바꿈)
 - alt+up/down (줄 아예 이동)
 - ctrl + i (자동 들여/띄여쓰기)
+- ctrl + space (자동완성) (예: sysout이라고 쓴 뒤 ctrl + space 면 system.out.printLn()이 뜸)
 
 ## SQL
 
