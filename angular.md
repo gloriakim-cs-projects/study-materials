@@ -5,11 +5,22 @@
 
 #### Section 1: Getting Started
 
-<CLI Deep Dive>
-- 123
-- 456
+<What is Angular>
+- Angular is a **JavaScript Framework** which allows you to create reactive **Single-Page-Applications** (SPAs).
+- 이게 무슨 뜻이냐면, 웹페이지에 가면 index.html 딱 한 페이지만 보이는데, 이게 다른 거랑 연결되고 또 연결된거임.
+
+<Understanding Angular Version>
+- AngularJS는 엄청 다른데, Angular2에서 9까지는 6개월마다 업데이트하고 거의 비슷함.
+![image](https://user-images.githubusercontent.com/68700599/117378071-4e7ddc80-ae9a-11eb-8d29-96f29c1bdb56.png)
+
+<Project Setup>
+- ng new my-first-app
+- cd my-first-app
+- ng serve (running on localhost:4000)
+
 
 #### Section 2: The Basics
+
 
 #### Section 3: Course PRoject - The Basics
 
