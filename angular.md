@@ -13,7 +13,14 @@
 - AngularJS는 엄청 다른데, Angular2에서 9까지는 6개월마다 업데이트하고 거의 비슷함.
 ![image](https://user-images.githubusercontent.com/68700599/117378071-4e7ddc80-ae9a-11eb-8d29-96f29c1bdb56.png)
 
-@@ Project Setup @@
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+Project Setup 
 - ng new my-first-app
 - cd my-first-app
 - ng serve (running on localhost:4000)
