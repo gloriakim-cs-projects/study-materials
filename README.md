@@ -2,7 +2,7 @@
 This repository serves as a back-up for study notes.
 
 ## Goals
-- Angular9
+- Java (In progress)
+- Angular9 (In progress)
 - NodeJS
-- Java
 - Python 
