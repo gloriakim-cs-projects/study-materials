@@ -10,3 +10,8 @@
 - BROWSER: Firefox, Chrome, IE, Tor
 - COMM METHOD: Slack, Skype, Kakao Talk, Discord
 - EXTRA: Cisco Anyconnect Secure Mobility Client
+
+## Visual Studio Code Extensions
+- Python
+- Live Server
+- Live Share
