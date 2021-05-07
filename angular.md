@@ -34,9 +34,14 @@
 #### What is TypeScript?
 ![image](https://user-images.githubusercontent.com/68700599/117462074-e10e9200-af13-11eb-9ef0-f6f6b17e57d0.png)
 
-
 ### Section 2: The Basics
 
+#### Components Are Important!
+- Components 다시 사용 가능하고 one page의 small parts를 각각 맡아용 (각각의 style business logic 등)
+- 
+
+
+#### 
 
 ### Section 3: Course PRoject - The Basics
 
