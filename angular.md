@@ -96,7 +96,7 @@
 
 ### Section 31: Course Roundup
 
-### Section 32: Bonus: TypeScript Introduction (for Angular 2 Usage)
+### (DONE) Section 32: Bonus: TypeScript Introduction (for Angular 2 Usage)
 
 #### What is TypeScript?
 - TypeScript is a "superset" to JavaScript. (Still using syntax of JavaScript)
@@ -129,11 +129,29 @@
 ---> 혹은 이렇게 ![image](https://user-images.githubusercontent.com/68700599/117465386-444df380-af17-11eb-9959-ee82f6ea55ce.png)
 
 #### Diving into Functions & Function Types
-- 
+- return type을 infer함: ![image](https://user-images.githubusercontent.com/68700599/117465753-a0b11300-af17-11eb-8f88-bc87331e4f79.png)
+- 혹은 return value를 이렇게 define할 수도 있음 (물론 왠만하면 진짜 필요하지 않은 이상 ㄴㄴ함): ![image](https://user-images.githubusercontent.com/68700599/117465874-bcb4b480-af17-11eb-8b80-cbb39b066d47.png)
+- 아무 return 없으면 void로 세팅됨: ![image](https://user-images.githubusercontent.com/68700599/117466063-f1287080-af17-11eb-97bd-d4ab5e37746d.png)
+- *참고: print는 이미 JS에서 쓰고 있는 function 이름이라 다른 걸로 바꿔야 함; printOutput 이라던지.
 
+#### Understanding Generics
+- ...array = copy the existing array
+- Type을 any라고 쓰면 에러가 안 뜸. 근데 T라고 쓰면 T라고 쓰진 애들은 전부 다 같다는 뜻이라 에러가 뜸. 
+- ![image](https://user-images.githubusercontent.com/68700599/117475135-52087680-af21-11eb-923c-b4de0228e169.png)
+- 그게 넘버든 string이든 상관은 없음. 다 같으면 됨.
+- ![image](https://user-images.githubusercontent.com/68700599/117475324-81b77e80-af21-11eb-892b-8461d3c6b814.png)
 
+#### Classes & TypeScript
+- JS는 type을 세팅할 수 없지만, TS는 됨! 
+- ![image](https://user-images.githubusercontent.com/68700599/117475543-c80cdd80-af21-11eb-9c6f-e78650aefd4d.png)
+- 그리고 public/private도 세팅 가능함! (public은 .으로 access할 수 있는 거.)
+- ![image](https://user-images.githubusercontent.com/68700599/117475829-20dc7600-af22-11eb-884b-453cd7625c34.png)
+- 이런 public/private은 constructor에서 세팅 가능 ㅇㅇ. 위에 쓴 건 comment해도 똑같은 result임.
+- ![image](https://user-images.githubusercontent.com/68700599/117475950-3ea9db00-af22-11eb-8b2a-332810fa0ef5.png)
 
-
-
-
-
+#### Working with Interfaces
+- Interfaces = object type definition
+- 이렇게 method 쓰는 거 아님!!: ![image](https://user-images.githubusercontent.com/68700599/117476155-7ca6ff00-af22-11eb-9160-4e3a2cd329d3.png)
+- 이렇게 써서 type을 알려줘야 함: ![image](https://user-images.githubusercontent.com/68700599/117476364-99433700-af22-11eb-81a7-38c675eb2a2f.png)
+- 이렇게 쓴 다음, 하나 object 만들 땐, type에 있는 거 전부 specify해줘야 함 (i.e., firstName, age, greet()): ![image](https://user-images.githubusercontent.com/68700599/117476738-cd1e5c80-af22-11eb-85c3-199e5563f1b4.png)
+- 이거 사실 type Human = {...} 라고 써도 됨. 근데 interface는 좋은 점이 더 있음. 뭐냐면 클래스들이 이런 interface를 쓰면 정확하게 룰 따라 쓸 수 있게 도와줌. 즉 firstName, age, greet()을 제대로 넣고 또 쓸 수 있게 도와줌: ![image](https://user-images.githubusercontent.com/68700599/117477126-39995b80-af23-11eb-9f0c-d2401d70244a.png)
