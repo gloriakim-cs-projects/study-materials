@@ -118,7 +118,20 @@
 ![image](https://user-images.githubusercontent.com/68700599/117464429-419ece80-af16-11eb-977a-dc18b3876b16.png)
 
 #### Working with Union Types
+- 여러가지 타입(union types)을 쓰고 싶으면 직접적으로 type을 써야함. | 사용함.
+- ![image](https://user-images.githubusercontent.com/68700599/117464962-cbe73280-af16-11eb-86fc-afa135587f8f.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117465040-e4574d00-af16-11eb-9b74-598bcb7d268d.png)
+
+#### Assigning Type Aliases
+- 만든 type을 여러번 쓰고 싶을 때 쓰는 거.
+---> 이걸 ![image](https://user-images.githubusercontent.com/68700599/117465299-28e2e880-af17-11eb-9703-169fd0541d5f.png)
+---> 이렇게 바꿈 ![image](https://user-images.githubusercontent.com/68700599/117465335-36986e00-af17-11eb-80b1-7d51072b9a6f.png)
+---> 혹은 이렇게 ![image](https://user-images.githubusercontent.com/68700599/117465386-444df380-af17-11eb-9959-ee82f6ea55ce.png)
+
+#### Diving into Functions & Function Types
 - 
+
+
 
 
 
