@@ -75,7 +75,27 @@
 - ![image](https://user-images.githubusercontent.com/68700599/117483623-897c2080-af2b-11eb-9f0c-8f47b66d41d0.png)
 - ![image](https://user-images.githubusercontent.com/68700599/117543897-68c3d180-afe4-11eb-815e-e367cfcd5050.png)
 
+#### String Interpolation vs Property Binding
+- Change/show text = string interpolation
+- Change state = property binding
 
+#### Event Binding
+- TIP: User input을 받는 function/method는 on으로 시작하는 게 좋음. onCreateServer처럼. 
+- ![image](https://user-images.githubusercontent.com/68700599/117543945-aa547c80-afe4-11eb-9f79-c303712a69b7.png)
+- Event는 (click)=function()”이 syntax (버튼을 클릭하면 function이 execute)
+- ![image](https://user-images.githubusercontent.com/68700599/117543965-cbb56880-afe4-11eb-91ce-707dc3abd4c6.png)
+
+#### Passing and Using Data with Event Binding
+- (input)=“function이름($event)” 여기서 event는 이미 reserved된 term인데 user input 을 pass 해주는거임
+- ![image](https://user-images.githubusercontent.com/68700599/117544024-fa334380-afe4-11eb-835a-bd9fb0a240eb.png)
+- 물론 이러한 event 역시 function 쓸 때 넣어줘야 함. 지금은 걍 타입을 any로 넣음. 
+- ![image](https://user-images.githubusercontent.com/68700599/117544036-07503280-afe5-11eb-995c-432c9b325e3b.png)
+- ***솔직히 이건 한 번 직접 해봐야 함...***
+
+#### Two-Way Databinding
+- Two way binding = property + event
+- import { FormsModule } from '@angular/forms';
+- 
 
 
 
