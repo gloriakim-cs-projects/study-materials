@@ -36,12 +36,49 @@
 
 ### Section 2: The Basics
 
-#### Components Are Important!
+#### Component
 - Components 다시 사용 가능하고 one page의 small parts를 각각 맡아용 (각각의 style business logic 등)
-- 
+- @ 는 decorator. 우리가 만드는 components file이 component 라고 알려주는 것. 즉 @component. 근데 `ng g c my-component` 사용해서 만들면 미리 되어있음.
+- ![image](https://user-images.githubusercontent.com/68700599/117480880-ce05bd00-af27-11eb-9f4c-aa1965138101.png)
+- JavaScript object을 pass 해줘야 해서 {} 엏는거임
+- ![image](https://user-images.githubusercontent.com/68700599/117480938-e07ff680-af27-11eb-8bfd-f241ce48968d.png)
+- Component에 Selector 넣고 templateUrl 넣고
+- ![image](https://user-images.githubusercontent.com/68700599/117480967-ebd32200-af27-11eb-96c5-758d73b6b155.png)
+
+#### Module
+- Components = build; modules = group together
+- Component file을 그냥 add 만 한다고 angular이 이 파일 있다고 알진 않음. 모듈에 얘 있다~고 말해줘야 함
+- ![image](https://user-images.githubusercontent.com/68700599/117481139-23da6500-af28-11eb-95e3-e663f4a73a3c.png)
+
+#### Custom Component 넣는 법
+- (1) 컴포넌트 만든다
+- (2) 모듈에 넣는다
+- (3) Main/root app component (html)에 만든 컴포넌트를 넣는다
+- ![image](https://user-images.githubusercontent.com/68700599/117481676-ec1fed00-af28-11eb-98cb-a0ed8d9222af.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117481714-f7731880-af28-11eb-984c-656d0b1a7095.png)
+- Components are reusable! 그래서 html에 두 번 써도 ㅇㅋ
+- ![image](https://user-images.githubusercontent.com/68700599/117481757-078af800-af29-11eb-9283-c04ea91857ed.png)
+- Ng g c 가 다 해주니만 하나는 해야 함: Main/root component html에 같이 넣어주는 것!
+
+#### Databinding
+- ![image](https://user-images.githubusercontent.com/68700599/117483297-2c806a80-af2b-11eb-8c45-48ce393c54aa.png)
+
+#### String Interpolation
+- String interpolation = {{ variable name }} String으로 만들 수 있음.
+- ![image](https://user-images.githubusercontent.com/68700599/117483418-4e79ed00-af2b-11eb-8b7a-ba83b4f7fcde.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117483457-59cd1880-af2b-11eb-9356-318f40e8a503.png)
+- Function (java용어로는 method)도 string interpolation 이서 부르기 가능함!
+- ![image](https://user-images.githubusercontent.com/68700599/117483504-6b162500-af2b-11eb-96f5-d1a68e0a65f5.png)
+
+#### Property Binding
+- Property binding = state를 바꾸고 싶을 때 쓰는 것! [property]=“function 이름” 하면 ㅇㅋ.
+- ![image](https://user-images.githubusercontent.com/68700599/117483623-897c2080-af2b-11eb-9f0c-8f47b66d41d0.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117543897-68c3d180-afe4-11eb-815e-e367cfcd5050.png)
 
 
-#### 
+
+
+
 
 ### Section 3: Course PRoject - The Basics
 
