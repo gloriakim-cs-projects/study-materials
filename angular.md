@@ -90,17 +90,40 @@
 - ![image](https://user-images.githubusercontent.com/68700599/117544024-fa334380-afe4-11eb-835a-bd9fb0a240eb.png)
 - 물론 이러한 event 역시 function 쓸 때 넣어줘야 함. 지금은 걍 타입을 any로 넣음. 
 - ![image](https://user-images.githubusercontent.com/68700599/117544036-07503280-afe5-11eb-995c-432c9b325e3b.png)
-- ***솔직히 이건 한 번 직접 해봐야 함...***
 
 #### Two-Way Databinding
 - Two way binding = property + event
 - import { FormsModule } from '@angular/forms';
-- 
+- 예: [(ngModel)]='userName'
 
+#### Directives
+- Directives are Instructions in the DOM!
+- Components = directives with template
+- directive without template:
+- ![image](https://user-images.githubusercontent.com/68700599/117575536-260f0180-b097-11eb-8738-515092378dc1.png)
 
+#### ngIf
+- ![image](https://user-images.githubusercontent.com/68700599/117575573-49d24780-b097-11eb-886f-8d3741312242.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117575577-522a8280-b097-11eb-9c81-3be1f35db8c1.png)
 
+#### ngIf and Else
+- ![image](https://user-images.githubusercontent.com/68700599/117575635-856d1180-b097-11eb-9a60-3a520ceaec9e.png)
+
+#### ngStyle - add CSS styles
+- ![image](https://user-images.githubusercontent.com/68700599/117575671-acc3de80-b097-11eb-9824-81ea5eecb686.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117575680-bc432780-b097-11eb-995c-b0f8205ef5b7.png)
+
+#### ngClass - add/remove CSS classes
+- 만약 온라인이라면 CSS class online (보라색) 불이는 거임:
+- ![image](https://user-images.githubusercontent.com/68700599/117576008-0678d880-b099-11eb-9097-baf70a88bcad.png)
+
+#### ngFor
+- ![image](https://user-images.githubusercontent.com/68700599/117576162-9880e100-b099-11eb-8c00-fb043a83a73e.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117576186-b77f7300-b099-11eb-8cdb-016dbcb5af33.png)
+- ![image](https://user-images.githubusercontent.com/68700599/117576263-1f35be00-b09a-11eb-9831-714ddfa9657b.png)
 
 ### Section 3: Course PRoject - The Basics
+- 
 
 ### Section 4: Debugging
 
