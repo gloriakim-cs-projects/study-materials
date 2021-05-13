@@ -56,3 +56,12 @@
 - 가장 optimal solution이 나올 떄까지 반복
 
 ### Section 5: Building a Single Perception Model
+- (1) 먼저 random weight이랑 bias를 고름
+- (2) Process input
+- (3) Adjust weight
+
+### Section 6: Neural Networks in Under Ten Minutes
+- Backpropagation: 내가 알게 된 사실을 가지고 다시 시작하는 거. 
+- Layers
+- Batching
+
