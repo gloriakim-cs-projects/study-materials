@@ -56,4 +56,3 @@
 - 가장 optimal solution이 나올 떄까지 반복
 
 ### Section 5: Building a Single Perception Model
-
