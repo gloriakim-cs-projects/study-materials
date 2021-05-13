@@ -62,6 +62,20 @@
 
 ### Section 6: Neural Networks in Under Ten Minutes
 - Backpropagation: 내가 알게 된 사실을 가지고 다시 시작하는 거. 
-- Layers
-- Batching
+- Layers: 
+- ![image](https://user-images.githubusercontent.com/68700599/118146184-f7b15f00-b3d3-11eb-8e3f-8ef3965f2618.png)
+- Batching: 
+- ![image](https://user-images.githubusercontent.com/68700599/118146524-4fe86100-b3d4-11eb-985d-0f1573db875e.png)
+
+### Section 7: Gradient Descent
+- Gradient Descent:
+- ![image](https://user-images.githubusercontent.com/68700599/118146911-aeadda80-b3d4-11eb-9688-25e38770e933.png)
+- stopping point = convergence (where 4 is)
+- Overfitting: too accurate
+- Regularization = 가장 괜찮은 line 찾는 법 (overfitting 없이)
+- Cross-validation = 여러개 데이터 사용해서 우리가 overfitting한 거 고침
+- Bias-Variance Tradeoff = training data랑 test data랑 accuracy 비교하는 것
+- Feature Engineering = 데이터를 쪼은 것만 픽해서 가장 괜찮은 모델 만들려는 것
+- ![image](https://user-images.githubusercontent.com/68700599/118147448-33005d80-b3d5-11eb-8b0a-3056d19c0bea.png)
+
 
